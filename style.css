@@ -1,0 +1,98 @@
+:root {
+    --underweight: rgb(2, 171, 233);
+    --healthy: green;
+    --overweight: orange;
+    --obese: crimson;
+  }
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #3494e6, #ec6ead); 
+}
+
+#box {
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.504);  
+}
+
+.heading {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-shadow: 4px 2px 8px rgba(0, 0, 0, 0.251);
+    color: #102f77;
+}
+
+#box input {
+    border-radius: 10px;
+}
+
+#box label {
+      float: left;
+}
+
+.bmi-scale {
+      display: flex;
+}
+  
+.bmi-scale div {
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 5px solid var(--color);
+    padding: 10px;
+}
+  
+.bmi-scale h4 {
+    font-size: 0.75rem;
+    color: slategray;
+}
+
+
+           
+.calculate {
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+    margin: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.calculate:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+           
+.reset {
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+    margin: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.reset:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+ 
+ 
